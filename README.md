@@ -1,14 +1,20 @@
 [![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)
 
-This is a [Blitz.js](https://github.com/blitz-js/blitz) app.
+This is a [Blitz.js](https://github.com/blitz-js/blitz) starter application. Pick up here where the [official tutorial](https://blitzjs.com/docs/tutorial) leaves off.
 
-# **name**
+# **Blitz Starter**
+
+This repo provides a starting point for writing a Blitz app. It has:
+
+- Completed code from the [official tutorial](https://blitzjs.com/docs/tutorial)
+- Default database environment variables configured for PostgreSQL
+- Chakra UI library pre-installed using Blitz [recipes](https://blitzjs.com/docs/using-recipes)
 
 ## Getting Started
 
 Run your app in the development mode.
 
-```
+```js
 blitz start
 ```
 
@@ -32,7 +38,7 @@ DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/dashboard_test
 
 Runs your tests using Jest.
 
-```
+```js
 blitz test
 or
 yarn test
@@ -44,7 +50,7 @@ Blitz comes with a test setup using [Jest](https://jestjs.io/) and [react-testin
 
 Blitz comes with a powerful CLI that is designed to make development easy and fast. You can install it with `npm i -g blitz`
 
-```
+```js
   blitz [COMMAND]
 
   build     Create a production build
@@ -58,7 +64,7 @@ Blitz comes with a powerful CLI that is designed to make development easy and fa
 
 You can read more about it on the [CLI Overview](https://blitzjs.com/docs/cli-overview) documentation.
 
-## What's included?
+## What's included
 
 Here is the structure of your app.
 

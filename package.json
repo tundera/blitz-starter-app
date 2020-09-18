@@ -1,5 +1,9 @@
 {
-  "name": "dashboard",
+  "name": "blitz-starter-app",
+  "author": {
+    "name": "Philip Johnston (tundera)",
+    "email": "stackshuffle@gmail.com"
+  },
   "version": "1.0.0",
   "scripts": {
     "start": "blitz start",
